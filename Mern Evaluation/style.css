@@ -1,0 +1,434 @@
+* {
+    margin: 0px;
+}
+
+.NavBar nav,
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+    justify-content: end;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: "Caveat", cursive;
+    font-size: large;
+}
+
+.NavBar img {
+    height: 40px;
+    width: 40px;
+    float: inline-start;
+    margin-left: 10px;
+}
+
+.NavBar li:hover {
+    color: rgb(60, 5, 110);
+    translate: 0 -5px;
+    transition: 0.3s;
+}
+
+header {
+    height: 50px;
+    width: 95%;
+    /* background-color: rgba(155, 10, 155, 0.945); */
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 10px;
+    cursor: default;
+}
+
+
+header h2 {
+    margin-top: 5px;
+    word-spacing: 10px;
+    font-family: "Caveat", cursive;
+    font-size: 3em;
+}
+
+header h2:hover {
+    color: white;
+    transition: 5s;
+    cursor: pointer;
+}
+
+.divi {
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+    font-family: "Playwrite CA", cursive;
+}
+
+.divi:hover {
+    background-color: rgba(64, 62, 208, 0.413);
+    color: rgb(253, 252, 252);
+    font-size: 3em;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    transition: 0.5s;
+    ;
+    transform: rotate3d();
+    cursor: pointer;
+}
+
+.divi:active {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    transition: 0.1s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*                         THIS FOR THE SHOE SECTION                                   */
+
+section #shoes {
+    /* display: inline-block; */
+    flex-direction: column;
+}
+
+section h1 {
+    font-family: "Caveat", cursive;
+    font-size: 3em;
+    margin: 5px;
+    /* text-align: center; */
+}
+
+.box {
+    margin: 35px;
+    border-radius: 10px;
+    /* flex-direction: row; */
+    display: inline-block;
+    padding: 12px;
+}
+
+.box img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.box p,
+h3,
+h4 {
+    margin: 0px;
+    color: rgb(53, 53, 54);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box:hover {
+    box-shadow: 0 4px 8px 0 rgba(229, 36, 223, 0.155), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: o.8s;
+    transform: rotateX('angle');
+    cursor: pointer;
+}
+
+.imgi img {
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bgimg {
+    height: 500px;
+    width: 100%;
+    /* background-image: url('https://img.freepik.com/free-photo/yellow-sports-shoe-with-elegant-design-generated-by-ai_188544-19644.jpg?t=st=1720635262~exp=1720638862~hmac=ace7b157dad44b646bafeb8215d4cb3cb213e1438e2d30917d3e4ab4572b0e5d&w=1060'); */
+    background-image: url('https://img.freepik.com/free-photo/close-up-basketball-shoes_23-2150847378.jpg?t=st=1720687745~exp=1720691345~hmac=c3b712d04c8f1e8ad8b6f6103799f1b03568f1306f33407de69053ac69b2c342&w=900');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+}
+
+.bgimg h2 {
+    font-family: "Dancing Script", cursive;
+    padding-top: 200px;
+    font-size: 3em;
+    cursor: default;
+    margin-top: 20px;
+    opacity: 50%;
+}
+
+/* @media only screen and (min-width: 567px) {
+    .imgi img {
+        height: 300px;
+        width: 30%;
+    }
+} */
+
+.sfoot {
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.sfoot:hover {
+    color: red;
+    transition: 3s;
+}
+
+#slippers .land {
+    background-image: url('images/hands-holding-flip-flops.png');
+    height: 1200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+
+}
+
+.land p {
+    font-family: "Dancing Script", cursive;
+    display: block;
+    font-size: 2em;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+
+/* Clogs Sections */
+#clogs {
+    margin-top: 20px;
+}
+
+/* Login section */
+
+#body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('./images/loginb.avif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+
+#body2 {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://img.freepik.com/free-photo/yellow-sports-shoe-with-elegant-design-generated-by-ai_188544-19644.jpg?t=st=1720635262~exp=1720638862~hmac=ace7b157dad44b646bafeb8215d4cb3cb213e1438e2d30917d3e4ab4572b0e5d&w=1060');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.login-bar {
+    height: 300px;
+    width: 400px;
+    background-color: rgba(232, 225, 225, 0.212);
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgba(0, 0, 0, 0.315);
+    font-family: "Caveat", cursive;
+
+
+}
+
+.login-bar input {
+    display: flex;
+    margin: 10px;
+    height: 30px;
+    width: 220px;
+    margin-left: 20%;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background: none;
+    color: azure;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.login-bar input:focus {
+    background-color: none;
+    border: none;
+    outline: none;
+    background: none;
+
+}
+
+.login-bar h3 {
+    /* background-color: blueviolet; */
+    color: rgb(249, 249, 249);
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    padding-top: 6px;
+    justify-content: center;
+    cursor: default;
+    margin-left: 25%;
+    /* background-color: rgba(0, 0, 0, 0.589); */
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.login-bar h3:hover {
+    background-color: rgba(0, 0, 0, 0.361);
+    border-radius: 30px;
+    transition: 0.5s;
+
+}
+
+::placeholder {
+    color: rgb(17, 16, 16);
+    opacity: 1;
+}
+
+
+footer {
+    background-color: rgba(8, 8, 8, 0.694);
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+footer p{
+    padding: 20px;
+    color: white;
+}
+footer h4{
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.607);
+}
+footer h3{
+    color: beige;
+}
+
+@media only screen and (max-width: 567px) {
+    .NavBar nav {
+        justify-content: center;
+    }
+
+    .NavBar img {
+        height: 30px;
+        width: 30px;
+        margin-left: 0;
+    }
+
+    .NavBar ul {
+        gap: 10px;
+    }
+
+    header h2 {
+        font-size: 2em;
+    }
+
+    .divi {
+        margin: 20px;
+        padding: 10px;
+        font-size: 2em;
+    }
+
+    .box {
+        margin: 20px;
+        padding: 8px;
+    }
+
+    .box img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .imgi img {
+        height: 200px;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .bgimg h2 {
+        font-size: 2em;
+    }
+
+    .sfoot {
+        font-size: 1.5em;
+    }
+
+    #slippers .land {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .land p {
+        margin-left: 10%;
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 1023px) {
+    .NavBar img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .divi {
+        font-size: 2.5em;
+    }
+
+    .box {
+        margin: 25px;
+        padding: 10px;
+    }
+
+    .box img {
+        height: 180px;
+        width: 180px;
+    }
+
+    .imgi img {
+        height: 250px;
+    }
+
+    .bgimg h2 {
+        font-size: 2.5em;
+    }
+
+    .sfoot {
+        font-size: 1.8em;
+    }
+
+    #slippers .land {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .land p {
+        margin-left: 20%;
+        font-size: 1.8em;
+    }
+}
+
+.footer img{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.footer img:hover{
+    translate: 0 -5px;
+    cursor: pointer;
+}
